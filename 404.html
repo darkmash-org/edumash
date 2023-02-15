@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edumash • 404</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Edumash-edu-css-style.css">
+    <meta property="og:title" content="Edumash">
+    <meta property="og:description" content="Courses For Free!">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/902557683259945011/903978421741322240/Edumash.png">
+    <meta property="og:url" content="https://Edumash.axorax.tk/" />
+    <meta name="twitter:title" content="Edumash" />
+    <meta name="twitter:description" content="Courses For Free!" />
+    <meta name="twitter:image" content="Edumash.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="shortcut icon" href="Edumash.png" type="image/x-icon">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: lightgreen; 
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: lightcoral;
+}
+#Edumash-logo{
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+}
+#Edumash-nav-bar-text{
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -2.1em;
+    position: absolute;
+    margin-left: 3.2em;
+    cursor: default;
+}
+#separator{
+    color: #A2D2FF;
+}
+#home-hyperlink{
+    text-decoration: none;
+    color: white;
+}
+#home-hyperlink:hover{
+    color: #FF865E;
+}
+#patreon-fixed{
+    height: 3em;
+    width: 3em;
+    bottom: 0.9%;
+    right: 0.9%;
+    position: fixed;
+}
+#border{
+    border: 2px solid lightslategray;
+}
+#default-author-style{margin-top:-0.1em;margin-left: 0.5em;}
+#default-description-style{margin-top:-0.6em;margin-left: 0.5em;}
+#default-title-style{margin-top:0.1em;margin-left: 0.5em;}
+#default-hyperlink, #default-hyperlink-title, #default-hyperlink-description{color:black;text-decoration: none;cursor: pointer;}
+#default-hyperlink:hover{color:#A2D2FF}
+#default-hyperlink-title:hover{color: #FF9090}
+#mobile{
+    display: none;
+    visibility: hidden;
+}
+.dropdown-menu{
+    display: none;
+    visibility: hidden;
+}
+ul{
+    color: black;
+    text-decoration: none;
+}
+.dropdown-toggle{
+    color: black;
+}
+.active-dropdown{
+    display: block;
+    visibility: visible;
+}
+#dropdown-content-link{
+    text-decoration: none;
+    color: white;
+}
+#pc{
+    display: block;
+    visibility: visible;
+}
+@media screen and (max-width: 700px) {
+    #mobile{
+        display: block;
+        visibility: visible;
+    }
+    #pc{
+        display: none;
+        visibility: hidden;
+    }
+}
+#dropdown-button{
+    color: white;
+    border: none;
+    background-color: #3DB2FF;
+    width: 3em;
+    height: 3em;
+    float: right;
+    margin-top: 1.2em;
+}
+::-moz-selection {
+    color: white;
+    background: #FDA65D;
+  }
+  
+  ::selection {
+      color: white;
+    background: #FDA65D;
+  }
+        #btn{
+            text-align: center;
+        }
+        #return{
+            border: none;
+            border-radius: 2%;
+            background-color: #FF5151;
+            color: white;
+            width: 10em;
+            height: 5em;
+            text-align: center;
+            transition: background 0.5s ease;
+            cursor: pointer;
+        }
+        #return:hover{
+            border: 2px solid #FF5151;
+            background-color: transparent;
+        }
+        #contact{
+            color: rgb(108, 108, 255);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="mobile">
+        <a href="index.html">
+            <img id="Edumash-logo" src="Edumash.png">
+        </a>
+        <h2 id="Edumash-nav-bar-text">Edumash <span id="separator">|</span></h2>
+            <button id="dropdown-button" onClick="dropdownt()"><i id="nav-icon" class="fa fa-bars"></i></button>
+            <div class="dropdown-menu">
+                <ul><a id="dropdown-content-link"href="index.html"><b><i class="fa fa-home"></i> &nbsp; Home</i></b></a></ul>
+              <ul><a id="dropdown-content-link"href="learn.html"><b><i class="fa fa-book"></i> &nbsp; Learn</b></a></ul>
+              <ul><a id="dropdown-content-link"href="https://patreon.com/axorax"><b><i class="fa fa-medkit"></i> &nbsp; Support us!</b></a></ul>
+            </div>
+    </div>
+    <section>
+        <div id="pc">
+            <a href="index.html">
+                <img id="Edumash-logo" src="Edumash.png">
+            </a>
+            <h2 id="Edumash-nav-bar-text">Edumash <span id="separator">|</span> <a id="home-hyperlink" href="index.html">Home </a><span id="separator">|</span> <a id="home-hyperlink" href="learn.html">Learn</a><span id="separator"> |</span> <a id="home-hyperlink" href="https://patreon.com/axorax">Support us!</a></h2>
+        </div>
+    </section>
+
+    <h1>404 Error.</h1>
+    <p>We looked everywhere, but couldn't find what you were looking for! ;-;</p>
+    <p>For furthur issues, <a id="contact"href="#">please contact the developers.</a></p>
+    <div id="btn">
+        <a href="index.html">
+            <button id="return">Return Home</button>
+        </a>
+    </div>
+
+    <noscript>Your Browser Doesn't Support Javascript =[</noscript>
+    <script>
+function dropdownt() {
+    var element = document.querySelector('.dropdown-menu');
+    element.classList.toggle("active-dropdown");
+ }
+    </script>
+</body>
+</html>
