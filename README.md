@@ -1,3 +1,2 @@
 # Edumash
 
-By Cacto & Axorax
